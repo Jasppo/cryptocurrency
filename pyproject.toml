@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cryptocurrency"
+version = "0.1.0"
+description = "An end-to-end project for analyzing and visualizing cryptocurrency data"
+authors = ["Jaspreet Kang <jaspo.kang@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2-binary = "^2.9.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
