@@ -11,6 +11,14 @@ CREATE TABLE table_name (
     name VARCHAR(100) NOT NULL
 );
 
+# Arrange table
+SELECT * FROM table_name ORDER BY column_name ASC LIMIT 10;
+
+# Remove all rows in table
+
+# Remove all rows with a specific value in a column
+DELETE FROM table_name WHERE column_name = 'value';
+
 # Exit psql
 \q
 
