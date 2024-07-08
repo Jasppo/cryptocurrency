@@ -1,1 +1,3 @@
 upstream/config.ini
+upstream/functions/__pycache__/
+run_script.bat
