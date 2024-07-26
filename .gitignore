@@ -1,3 +1,8 @@
 upstream/config.ini
 upstream/functions/__pycache__/
+upstream/postgresql-rds/
+log.txt
 run_script.bat
+*.json
+dashboard.pbix
+upstream/__pycache__/
